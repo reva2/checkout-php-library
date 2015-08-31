@@ -18,8 +18,10 @@
     },
     "autoload": {
         "psr-0": {
-            "CheckoutApi_": "checkout/packages/CheckoutApi/",
-            "com\\checkout\\": "com/checkout/"
+            "CheckoutApi_": "checkout/packages/CheckoutApi/"
+        },
+        "psr-4": {
+            "com\\checkout\\": "com/checkout"
         }
     }
 }
